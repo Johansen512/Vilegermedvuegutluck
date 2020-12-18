@@ -1,6 +1,6 @@
 <template>
 
-  <button class="button">
+  <button class="bubble">
   <p>{{ msg }}</p>
     <slot/>
   </button>
@@ -14,6 +14,7 @@
 export default {
 props: {
     msg: String
+    
   }
 }
 
@@ -22,14 +23,16 @@ props: {
 <style scoped>
 
 
-  .button {
+  .bubble {
     display:inline-block;
     
     margin: 1.5em;
     padding: 1em 2em;
-    background: #fff;
+    background: lightblue;
+    width: 150px;
+    height: 150px;
     border: 2px solid tomato;
-    border-radius: 3px;
+    border-radius: 50%;
     color: tomato;
     font-family: "Quicksand", sans-serif;
     font-size: 1em;
@@ -42,8 +45,14 @@ props: {
     transition: 0.3s;
   }
 
-  .button:hover {
-    background: tomato;
-    color: #fff;
+  .bubble:hover {
+    background: blue;
+    width: 300px;
+    height: 300px;
+    
   }
+.bubble:hover::after{
+content: attr(data-tooltip);
+}
+
 </style>
