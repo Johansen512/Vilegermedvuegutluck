@@ -4,16 +4,16 @@
     <HelloWorld msg="Velkommen til mit portfolio"/>
 <nav>
 <ul>
-<li><bubble msg="test" data-tooltip="testing testing" /></li>
-<li><bubble msg="test2" data-tooltip="testing testing2"/></li>
-<li><bubble msg="test3" data-tooltip="testing testing3"/></li>
-<li><bubble msg="test4" data-tooltip="testing testing4"/></li>
-<li><bubble msg="test5" data-tooltip="testing testing5"/></li>
-<li><bubble msg="test6" data-tooltip="testing testing6"/></li>
-<li><bubble msg="test7" data-tooltip="testing testing7"/></li>
+<li><bubble msg="En lille billedviser" data-tooltip="Mobilt billedgalleri i React" /></li>
+<li><bubble msg="Find kattene" data-tooltip="Spil for de mindste"/></li>
+<li><bubble msg="Er det tid nu?" data-tooltip="Tæl ned til din favorit begivenhed"/></li>
+<li><bubble msg="Hvor får?" data-tooltip="Et spil med ... får"/></li>
+<li><bubble msg="Light, Dark, Dork Switcher" data-tooltip="Lyst, mørkt eller nørdet?"/></li>
+<li><bubble msg="Er det jul nu?" data-tooltip="Den oprindelige nedtællings app"/></li>
+<li><bubble msg="Det himmelske lys" data-tooltip="Lys-styrings app"/></li>
 </ul>
 </nav>
-    <btn1 msg="hvad med her"/>
+  
   </div>
 
   
@@ -23,13 +23,11 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
-import btn1 from '@/components/btn1.vue'
 import bubble from '@/components/bubble.vue'
 export default {
   name: 'Home',
   components: {
     HelloWorld,
-    btn1,
     bubble
   }
 }
@@ -41,10 +39,11 @@ nav{
 }
 
 ul{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+
+list-style-type: none;
 
 
 }
