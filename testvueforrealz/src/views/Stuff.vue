@@ -1,15 +1,17 @@
 <template>
+
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>This is an stuff page</h1>
 
     <p>Og her kommer alt mit snas</p>
 <bholder>
-    <btn1 msg="En"/>
-    <btn1 msg="To"/>
-    <btn1 msg="Tre"/>
+    <btn1 />
+    <btn1 />
+    <btn1 />
 </bholder>
 
   </div>
+  
 </template>
 
 <script>
@@ -17,11 +19,19 @@
 
 import bholder from '@/components/bholder.vue'
 export default {
-  name: 'About',
+
+
+
+  name: 'Stuff',
   components: {
-   
+  
+    
+    
     bholder
   }
+  
+
+ 
 }
 </script>
 
