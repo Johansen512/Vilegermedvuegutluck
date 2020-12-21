@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-    Her finder du færdige (og mindre færdige) sider, apps, komponenter og dippedutter, som jeg har forsøgt mig med at kode
+    En lille, mobile-first billedviser kodet i React
     </p>
    
   </div>
@@ -11,17 +11,10 @@
 </template>
 
 <script>
-import { ref } from 'vue'
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
-  },
-  setup ( ) {
- const count = ref(0)
-    return {
-count,
-    }
   }
 }
 </script>

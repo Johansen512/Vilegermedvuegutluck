@@ -3,21 +3,23 @@
   <div class="about">
     <h1>This is an stuff page</h1>
 
-    <p>Og her kommer alt mit snas</p>
+    <p>Og her kommer alt muligt sandkasse</p>
 <bholder>
     <btn1 />
     <btn1 />
     <btn1 />
 </bholder>
 
-  </div>
+<testdims />
+
+</div>
   
 </template>
 
 <script>
 // @ is an alias to /src
-
 import bholder from '@/components/bholder.vue'
+import testdims from '@/components/testdims.vue'
 export default {
 
 
@@ -26,13 +28,21 @@ export default {
   components: {
   
     
-    
+    testdims,
     bholder
   }
   
 
+
+
  
 }
+
+
+
+
+
+
 </script>
 
 

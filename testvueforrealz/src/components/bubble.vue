@@ -2,6 +2,7 @@
 
   <button class="bubble">
   <p>{{ msg }}</p>
+  
     <slot/>
   </button>
 
@@ -43,6 +44,7 @@ props: {
     text-transform: uppercase;
     cursor: pointer;
     transition: 0.3s;
+    outline: none;
   }
 
   .bubble:hover {
