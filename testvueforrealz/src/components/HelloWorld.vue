@@ -7,7 +7,7 @@
    
   </div>
 
-  <button class="button">Ny test </button>
+  
 </template>
 
 <script>

@@ -4,7 +4,7 @@
     <HelloWorld msg="Velkommen til mit portfolio"/>
 <nav>
 <ul>
-<li><bubble msg="En lille billedviser" data-tooltip="Mobilt billedgalleri i React" /></li>
+<li><a href="https://enlillebilledviser.netlify.app/" target="_self" rel="noopener"><bubble msg="En lille billedviser" data-tooltip="Mobilt billedgalleri i React" /></a></li>
 <li><bubble msg="Find kattene" data-tooltip="Spil for de mindste"/></li>
 <li><bubble msg="Er det tid nu?" data-tooltip="Tæl ned til din favorit begivenhed"/></li>
 <li><bubble msg="Hvor får?" data-tooltip="Et spil med ... får"/></li>
