@@ -26,14 +26,14 @@ props: {
   .bubble {
     display:inline-block;
     
-    margin: 1.5em;
-    padding: 1em 2em;
+    margin: 0.5em;
+    padding: 0.5em;
     background: lightblue;
     width: 150px;
     height: 150px;
-    border: 2px solid tomato;
+    border: 2px solid #1661a7;
     border-radius: 50%;
-    color: tomato;
+    color: #0c3963;
     font-family: "Quicksand", sans-serif;
     font-size: 1em;
     font-weight: 700;
@@ -46,13 +46,15 @@ props: {
   }
 
   .bubble:hover {
-    background: blue;
-    width: 300px;
-    height: 300px;
+    background: #1c84e5;
+    width: 180px;
+    height: 180px;
     
   }
 .bubble:hover::after{
 content: attr(data-tooltip);
+font-size: 0.9em;
+border: 4px;
 }
 
 </style>
