@@ -3,18 +3,18 @@
 
 <template>
   <div class="hello">
-    <h1 class="helloh1">En lille billedviser</h1>
+    <h1 class="helloh1">Find kattene</h1>
     <p class=hellop1>
-    En lille, mobile-first billedviser kodet i React
+    Et spil for de mindste og meget barnlige sjæle. Klik på alle kattene
     </p>
 
     
 
-    <p class=hellop2>Kendte fejl i version 1: Ingen fejl, alt er perfekt</p>
-    <p class=hellop3>Værktøjer:HTML, CSS, JavaScript, React</p>
+    <p class=hellop2>Kendte fejl i version 1: musik og lydeffekter lagger lidt i visse mobilbrowsere</p>
+    <p class=hellop3>Værktøjer:HTML, CSS, JavaScript</p>
     
 
-    <a class="helloa" href="https://enlillebilledviser.netlify.app/"><button class="hitMe">Prøv den!</button></a>
+    <a class="helloa" href="https://findkattene.netlify.app/"><button class="hitMe">Prøv det!</button></a>
    
   </div>
 
@@ -23,7 +23,7 @@
 
 <script>
 export default {
-  name: 'enlillebilledviser',
+  name: 'findkattene',
  
 }
 </script>

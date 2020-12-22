@@ -3,18 +3,18 @@
 
 <template>
   <div class="hello">
-    <h1 class="helloh1">En lille billedviser</h1>
+    <h1 class="helloh1">Det himmelske lys</h1>
     <p class=hellop1>
-    En lille, mobile-first billedviser kodet i React
+    En mobil-app der styrer lys i et hus. Desværre virker den kun sammen med en lokal router og nogen lamper. Men man kan da klikke.
     </p>
 
     
 
-    <p class=hellop2>Kendte fejl i version 1: Ingen fejl, alt er perfekt</p>
+    <p class=hellop2>Kendte fejl i version 1: Sikkert mange ... I forget</p>
     <p class=hellop3>Værktøjer:HTML, CSS, JavaScript, React</p>
     
 
-    <a class="helloa" href="https://enlillebilledviser.netlify.app/"><button class="hitMe">Prøv den!</button></a>
+    <a class="helloa" href="https://dethimmelskelys.netlify.app/"><button class="hitMe">Prøv den!</button></a>
    
   </div>
 
@@ -23,7 +23,7 @@
 
 <script>
 export default {
-  name: 'enlillebilledviser',
+  name: 'dethimmelskelys',
  
 }
 </script>

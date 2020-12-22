@@ -3,18 +3,18 @@
 
 <template>
   <div class="hello">
-    <h1 class="helloh1">En lille billedviser</h1>
+    <h1 class="helloh1">Light, Dark and Dork-mode</h1>
     <p class=hellop1>
-    En lille, mobile-first billedviser kodet i React
+    En lille app der skifter mellem light-mode, dark-mode og ... dork-mode!
     </p>
 
     
 
-    <p class=hellop2>Kendte fejl i version 1: Ingen fejl, alt er perfekt</p>
-    <p class=hellop3>Værktøjer:HTML, CSS, JavaScript, React</p>
+    <p class=hellop2>Kendte fejl i version 1: Det er så længe siden at jeg ikke kan huske det :(</p>
+    <p class=hellop3>Værktøjer:HTML, CSS, JavaScript</p>
     
 
-    <a class="helloa" href="https://enlillebilledviser.netlify.app/"><button class="hitMe">Prøv den!</button></a>
+    <a class="helloa" href="https://lightdarkanddorkmodeswitcher.netlify.app/"><button class="hitMe">Prøv det!</button></a>
    
   </div>
 
@@ -23,7 +23,7 @@
 
 <script>
 export default {
-  name: 'enlillebilledviser',
+  name: 'Wheresheep',
  
 }
 </script>

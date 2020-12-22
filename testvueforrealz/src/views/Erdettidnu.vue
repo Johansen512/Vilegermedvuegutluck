@@ -3,18 +3,18 @@
 
 <template>
   <div class="hello">
-    <h1 class="helloh1">En lille billedviser</h1>
+    <h1 class="helloh1">Er det tid nu?</h1>
     <p class=hellop1>
-    En lille, mobile-first billedviser kodet i React
+    En app der tæller ned til lige det du har lyst til!
     </p>
 
     
 
-    <p class=hellop2>Kendte fejl i version 1: Ingen fejl, alt er perfekt</p>
+    <p class=hellop2>Kendte fejl i version 1: man skal åbenbart dobbeltklikke for at komme igang og den sætter først tidspunktet til "-18000", til "0000" og SÅ til det korrekte. Dato-valg er meget forskelligt fra browser til browser</p>
     <p class=hellop3>Værktøjer:HTML, CSS, JavaScript, React</p>
     
 
-    <a class="helloa" href="https://enlillebilledviser.netlify.app/"><button class="hitMe">Prøv den!</button></a>
+    <a class="helloa" href="https://erdettidnu.netlify.app"><button class="hitMe">Prøv den!</button></a>
    
   </div>
 
@@ -23,7 +23,7 @@
 
 <script>
 export default {
-  name: 'enlillebilledviser',
+  name: 'Erdettidnu',
  
 }
 </script>
