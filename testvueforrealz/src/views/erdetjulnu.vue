@@ -5,7 +5,7 @@
   <div class="hello">
     <h1 class="helloh1">Er det jul nu?</h1>
     <p class=hellop1>
-    Den oprindelige nedtællings-app. Den tæller ned til sommerferien (2020) og julen (2020). Ikke særlig dynamisk og er senere blevet erstattet af "Er det tid nu"-appen
+    Den oprindelige nedtællings-app. Den tæller ned til sommerferien (2020) og julen (2020). Ikke særlig dynamisk og er senere blevet erstattet af <router-link to="/erdettidnu">"Er det tid nu"-appen</router-link>
     </p>
 
     

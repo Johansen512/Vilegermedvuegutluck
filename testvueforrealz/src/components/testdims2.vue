@@ -16,7 +16,7 @@ export default {
 
     function increment() {
       count.value++
-
+/*FÅ NU DET DER ERSTATTET AF EN TTTRNARRRY!!1*/
       if ( count.value % 2 == 0) {
 	document.getElementById('result').innerHTML = ' LIGE! SIR JEG JU!';
 }else{
