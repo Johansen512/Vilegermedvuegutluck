@@ -1,8 +1,11 @@
+
+
 <template>
 
- <div id="hello-vue" class="demo">
-  {{ message }}
-</div>
+<p>Hallo!</p>
+
+ 
+<testdims2 />
 
 
   
@@ -11,34 +14,40 @@
 <script>
 // @ is an alias to /src
 
-
+import testdims2 from '@/components/testdims2.vue'
 export default {
-
-
 
   name: 'Test',
   components: {
-    
+   testdims2
+   
     
   },
   props: {
-    message: String
+    
   }
 
 };
 
 
-const HelloVueApp = {
-  data() {
-    return {
-      message: 'Hello Vue!!'
-    }
-  }}
+
 
 
 
 
 </script>
 
-Vue.createApp(HelloVueApp).mount('#hello-vue')
+
+<style>
+.demo {
+  font-family: sans-serif;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  padding: 20px 30px;
+  margin-top: 1em;
+  margin-bottom: 40px;
+  user-select: none;
+  overflow-x: auto;
+}
+</style>
 

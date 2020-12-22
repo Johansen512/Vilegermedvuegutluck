@@ -10,16 +10,17 @@
     <btn1 />
 </bholder>
 
-<testdims />
+
 
 </div>
-  
+  <testdims2 />
 </template>
 
 <script>
 // @ is an alias to /src
 import bholder from '@/components/bholder.vue'
-import testdims from '@/components/testdims.vue'
+import testdims2 from '@/components/testdims2.vue'
+
 export default {
 
 
@@ -28,7 +29,7 @@ export default {
   components: {
   
     
-    testdims,
+    testdims2,
     bholder
   }
   

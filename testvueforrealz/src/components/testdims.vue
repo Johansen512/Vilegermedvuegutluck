@@ -1,3 +1,11 @@
+<template>
+<HelloVueApp >
+<div id="hello-vue" class="demo">
+  {{ message }}
+</div>
+
+</HelloVueApp >
+</template>
 
 
 <script>
@@ -5,7 +13,11 @@
 
 
 export default {
-
+components: {
+  
+    
+    HelloVueApp
+  },
  
   props: {
     message: String
@@ -13,8 +25,12 @@ export default {
 
 };
 
-
-
+const HelloVueApp = {
+  data() {
+    return {
+      message: 'Hello Vue!!'
+    }
+  }}
 
 
 
