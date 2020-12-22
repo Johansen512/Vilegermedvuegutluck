@@ -3,18 +3,18 @@
 
 <template>
   <div class="hello">
-    <h1 class="helloh1">En lille billedviser</h1>
+    <h1 class="helloh1">Hvor får?</h1>
     <p class=hellop1>
-    En lille, mobile-first billedviser kodet i React
+    Et lille spil hvor det gælder om at klikke på alle fårene inden tiden løber ud.
     </p>
 
     
 
-    <p class=hellop2>Kendte fejl i version 1: Ingen fejl, alt er perfekt</p>
-    <p class=hellop3>Værktøjer:HTML, CSS, JavaScript, React</p>
+    <p class=hellop2>Kendte fejl i version 1: Musikken og lydeffekter er lidt ujævne og sporadiske. Der er kun en bane. :(</p>
+    <p class=hellop3>Værktøjer:HTML, CSS, JavaScript</p>
     
 
-    <a class="helloa" href="https://enlillebilledviser.netlify.app/"><button class="hitMe">Prøv den!</button></a>
+    <a class="helloa" href="https://wheresheepgamevers1.netlify.app/"><button class="hitMe">Prøv det!</button></a>
    
   </div>
 
@@ -23,7 +23,7 @@
 
 <script>
 export default {
-  name: 'enlillebilledviser',
+  name: 'Wheresheep',
  
 }
 </script>

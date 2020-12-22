@@ -5,12 +5,12 @@
 <section>
 <ul class="listthingie">
 <li><router-link to="/enlillebilledviser"><bubble msg="En lille billedviser" data-tooltip="Mobilt billedgalleri i React" /></router-link></li>
-<li><bubble msg="Find kattene" data-tooltip="Spil for de mindste"/></li>
-<li><bubble msg="Er det tid nu?" data-tooltip="Tæl ned til din favorit begivenhed"/></li>
-<li><bubble msg="Hvor får?" data-tooltip="Et spil med ... får"/></li>
-<li><bubble msg="Light, Dark, Dork Switcher" data-tooltip="Lyst, mørkt eller nørdet?"/></li>
-<li><bubble msg="Er det jul nu?" data-tooltip="Den oprindelige nedtællings app"/></li>
-<li><bubble msg="Det himmelske lys" data-tooltip="Lys-styrings app"/></li>
+<li><router-link to="/findkattene"><bubble msg="Find kattene" data-tooltip="Spil for de mindste"/></router-link></li>
+<li><router-link to="/erdettidnu"><bubble msg="Er det tid nu?" data-tooltip="Tæl ned til din favorit begivenhed"/></router-link></li>
+<li><router-link to="/wheresheep"><bubble msg="Hvor får?" data-tooltip="Et spil med ... får"/></router-link></li>
+<li><router-link to="/lightdarkanddork"><bubble msg="Light, Dark, Dork Switcher" data-tooltip="Lyst, mørkt eller nørdet?"/></router-link></li>
+<li><router-link to="/erdetjulnu"><bubble msg="Er det jul nu?" data-tooltip="Den oprindelige nedtællings app"/></router-link></li>
+<li><router-link to="/dethimmelskelys"><bubble msg="Det himmelske lys" data-tooltip="Lys-styrings app"/></router-link></li>
 </ul>
 </section>
   
